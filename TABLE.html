@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <table  border-color="black" border="1" cellpadding="10" >
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>S no.</th>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Ansh</td>
+            <td>Patel</td>
+            <td>9569788918</td>
+        </tr>
+         <tr>
+            <td>2</td>
+            <td>Shivam</td>
+            <td>Shukla</td>
+            <td>6393764154</td>
+         </tr>
+         </tbody>
+         <tfoot>
+            <tr><td colspan="4">Footer</td></tr>
+         </tfoot>
+    </table>
+    <hr>
+    <table border-color="black" border="1" cellpadding="10" cellspacing="10" >
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Surname</th>
+        </tr>
+        <tr>
+            <td>Ansh</td>
+            <td>Shivam</td>
+            <td>Shukla</td>
+        </tr>
+        <tr> 
+            <th rowspan="3">April</th>
+            <td>Hello</td>
+            <td>World</td>
+        </tr>
+        <tr>
+            <td>Good</td>
+            <td>Morning</td>
+        </tr>
+        <tr>
+            <td>Good</td>
+            <td>Evening</td>
+        </tr> </table> <hr>
+        <table border-color="black" border="1" cellpadding="10" cellspacing="10" align="center">
+            <tr>
+            <th colspan="3">2022</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>February</td>
+            <td>March</td>
+        </tr>
+        <tr>
+            <th rowspan="2" colspan="2">FIESTA</th>
+            <td>Holi</td>
+        </tr>
+        <tr>
+            <td>Diwali</td>
+        </tr>
+    </table> <hr>
+    <table border-color="black" border="1">
+        <tr>
+            <td>Main Table row 1 column 1</td>
+            <td>Main Table column 2
+                <table border="5">
+                    <tr>
+                        <td>Nested Table row 1 column 1</td>
+                        <td>Nested Table row 1 column 2</td>
+                    </tr>
+                    <tr>
+                        <td>Nested Table row 2 column 1</td>
+                        <td>Nested Table row 2 column 2</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Main Table row 2 column 1</td>
+            <td>Main Table row 2 column 2</td>
+        </tr>
+    </table>
+</body>
+</html>
